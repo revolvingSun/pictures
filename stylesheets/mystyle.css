@@ -33,12 +33,14 @@
 		}
     
 	   .container-fluid{
+		   
 		   background-color: red;
 		   width: 960px;
 		   margin: 0 auto;
 		   height: 900px;
 		   padding: 10px;
-		   
+		   margin-top: 2px;
+		   border-radius: 5px;
 		   }	
 		   
 	    footer{
@@ -74,6 +76,7 @@
 			border: 2px solid black;
 			width: 100%;
 			height: auto;
+			border-radius: 10px;
 			
 		}
 		
