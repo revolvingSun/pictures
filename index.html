@@ -4,20 +4,104 @@
     <meta charset="UTF-8">
     <title>Pictures by revolvingSun</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="*" type="text/css"  />
+    <style>
+		*{
+		    box-sizing: border-box;
+			margin: 0;
+			padding: 0;	
+		}
+    	header{
+			background-color: blue;
+			width: 100%;
+			height: 80px;
+			}
+    
+	   .container-fluid{
+		   background-color: red;
+		   width: 960px;
+		   margin: 0 auto;
+		   height: 900px;
+		   }	
+		   
+	    footer{
+		   background-color: green;
+		   clear: both;
+		   width: 960px;
+		   margin: 0 auto;
+		   height: 200px;
+		   position: relative;
+		   top: 50px;
+			}
+		
+		nav{
+		   background-color: yellow;	
+		   overflow: auto;
+		   position: relative;
+		   left: 40%;
+		   width: 50%;
+		}
+			
+		ul{
+			border: 2px solid yellow;
+			text-decoration: none;
+			list-style-type: none;
+			
+		}
+		ul li{
+			float: left;
+			margin: 10px;
+			background-color: pink;	
+		}
+		
+			
+		@media screen and (max-width: 760px){
+			.container-fluid{
+				background-color: pink;
+				width: 80%;
+				}
+			footer{
+				width: 80%;
+				}
+			nav{
+				left: 0;
+				width: 100%;
+			}	
+				
+		   ul li{
+			float: none;
+			margin: 10px;
+			background-color: pink;	
+			text-align: center;
+		}		
+		
+		}
+    </style>
     
   </head>
   <body>
     <header>
-    
+    	<nav>
+        	<ul>
+            	<li>HOME</li>
+                <li>CONTACT</li>
+                <li>ABOUT ME</li>
+                <li>HISTORY</li>
+            
+            </ul>
+        
+        </nav>
     
     </header>
+    
+    
  	<div class="container-fluid">
     <h1>Hello World!</h1>
     <p>Yahoo!</p>
     </div> 
     
     <footer>
-    
+     <h2>There you go.</h2>
     
     </footer>
   </body>
