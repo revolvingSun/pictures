@@ -8,6 +8,7 @@
 			margin: 0;
 			padding: 0;	
 		}
+		
     	header{
 			background-color: blue;
 			width: 960px;
@@ -18,8 +19,8 @@
 			}
 			
 		nav{
-		   background-color: none;	
-		   width: 400px;
+		   background-color: yellow;	
+		   width: 404px;
 		   position: relative;
 		   left: 58%;
 		   
