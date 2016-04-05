@@ -17,17 +17,17 @@
 			
 		nav{
 		   background-color: yellow;	
-		   width: 35%;
+		   width: 350px;
 		   position: relative;
-		   right: 5%;
-		   left: 30%
+		   left: 50%;
+		  
 		  
 		   
 		   overflow: auto;
 		}
     
 	   .container-fluid{
-		   background-color: violet;
+		   background-color: red;
 		   width: 960px;
 		   margin: 0 auto;
 		   height: 900px;
@@ -50,6 +50,7 @@
 			border: 2px solid yellow;
 			text-decoration: none;
 			list-style-type: none;
+			
 			
 		}
 		ul li{
