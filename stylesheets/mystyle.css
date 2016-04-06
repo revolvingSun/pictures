@@ -17,7 +17,7 @@
 			margin: 0 auto;
 			
 			overflow: visible;
-			
+			padding-top: 15px;
 			
 			}
 			
@@ -27,21 +27,22 @@
 		   width: 404px;
 		   position: relative;
 		   left: 58%;
-		   margin-top: 0px;
+		   
 		   border-top-left-radius: 5px;
 		   overflow: auto;
+		   
 		}
     
 	   .container-fluid{
 		   
-		   background-color: red;
+		   background-color: #F03;
 		   width: 960px;
 		   margin: 0 auto;
 		   height: 900px;
 		   padding: 10px;
 		   
 		   border-top-left-radius: 10px;
-		   
+		  
 		   }	
 		   
 	    footer{
@@ -58,20 +59,22 @@
 			
 		ul{
 			/* border: 2px solid yellow; */
-			text-decoration: none;
-			list-style-type: none;
+			
+			list-style: none;
 			
 			
 			
 		}
+		
 		ul li{
 			float: left;
 	        padding: 10px; 
-			background-color: pink;	
+			background-color: white;	
 			height: 40px;
 			margin: 5px;
 			
 		}
+		
 		
 		
 		
@@ -89,22 +92,40 @@
 			color: white;
 			
 		}
+		a{
+		    
+			text-decoration: none;
 			
-		@media screen and (max-width: 960px){
+			
+			}
+		a:hover{
+			color: black;
+		}
+		
+		a:active{
+			font-size:1.1em;
+			
+			}
+	    a:hover li.south{
+			background-color: pink;
+			}		
+	
+		@media screen and (max-width: 767px){
 			header{
 				width: 100%;
 				overflow: visible;
-				
+				padding-top: 0px;
 				}
 			
 			.container-fluid{
 				background-color: pink;
 				width: 100%;
 				border-radius: 0;
+				margin-top: 2px;
 				
 				}
 			footer{
-				width: 95%;
+				width: 100%;
 				}
 			nav{
 				left: 0;
@@ -121,6 +142,7 @@
 			height: 44px;
 			background-color: pink;	
 			text-align: center;
-		}		
+			margin: 2px;
+		  }		
 		
 		}
