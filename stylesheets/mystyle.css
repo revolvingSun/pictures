@@ -50,9 +50,10 @@
 		   clear: both;
 		   width: 960px;
 		   margin: 0 auto;
-		   height: 200px;
+		   
 		   position: relative;
 		   top: 50px;
+		   overflow: auto;
 			}
 		
 		
@@ -72,6 +73,7 @@
 			background-color: white;	
 			height: 40px;
 			margin: 5px;
+			
 			
 		}
 		
@@ -108,8 +110,23 @@
 			}
 	    a:hover li.south{
 			background-color: pink;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			}		
 	
+	    /**********    FOOTER SECTION   ************************/
+		
+		.copyrights{
+			float: left;
+			height: 100px;
+			width: 33.33%;
+			background-color: yellow;
+			border: 1px solid black;
+			padding: 10px;
+			text-align: center;
+			
+		}
+	
+	   /**********    FOOTER SECTION   ************************/
 		@media screen and (max-width: 767px){
 			header{
 				width: 100%;
@@ -144,5 +161,12 @@
 			text-align: center;
 			margin: 2px;
 		  }		
+		 
+		 .copyrights{
+			float: none;
+			width: 100%;
+			
+			
+		}
 		
 		}
